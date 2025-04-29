@@ -1,0 +1,128 @@
+/* Reset de estilos para todos os elementos */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+/* Estilo da barra superior */
+.top-bar {
+  text-align: center;
+  background-color: #ff6b28;
+  padding: 15px;
+}
+
+/* Estilo do cabeçalho com imagem de fundo */
+.header {
+  background: url(./images/hero_bolo.jpg);
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+}
+
+/* Estilo do contêiner principal */
+.container {
+  max-width: 990px;
+  margin: auto;
+  padding: 0 40px;
+  margin-top: 100px;
+}
+
+/* Estilos para cabeçalhos (h1, h2, h3, h4, h5, h6) */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #ff6b28;
+}
+
+/* Estilo para o título principal (h1) */
+h1 {
+  font-size: 48px;
+}
+
+/* Estilo para títulos secundários (h2) */
+h2 {
+  font-size: 28px;
+  margin-bottom: 40px;
+}
+
+/* Estilo para seção de ingredientes */
+.ingredients {
+  padding: 70px 100px;
+  margin-top: 50px;
+  border-radius: 20px;
+}
+
+/* Efeito de sombra ao passar o mouse sobre a seção de ingredientes */
+.ingredients:hover {
+  box-shadow: 8px 8px 15px 12px rgba(205, 205, 205, 0.25);
+}
+
+/* Cursor personalizado para a seção de ingredientes */
+.cursor-ingredient {
+  cursor: url(./images/cursor_ingredientes.png), default;
+}
+
+/* Cursor personalizado para a seção de preparo */
+.cursor-prepare {
+  cursor: url(./images/cursor_preparo.png), default;
+}
+
+/* Estilo para links sem decoração */
+a {
+  text-decoration: none;
+}
+
+/* Estilo para botão de compra */
+.btn-buy {
+  background-color: #ff6b28;
+  padding: 16px;
+  border-radius: 20px;
+  border: none;
+  color: white;
+}
+
+/* Estilo para itens de lista */
+li {
+  margin-bottom: 14px;
+}
+
+/* Estilo para lista de ingredientes */
+.ingredients-items {
+  margin-bottom: 50px;
+}
+
+/* Cursor personalizado para a seção de instruções */
+.instrucoes {
+  cursor: url("./images/cursor_intrucoes.png"), auto;
+}
+
+/* Estilo para parágrafos e itens de lista */
+p,
+li {
+  line-height: 28px;
+}
+
+/* Estilo para o rodapé */
+.footer {
+  background-color: #ff6b28;
+  padding: 15px;
+  color: white;
+  text-align: center;
+}
+
+/* Estilo para o texto do rodapé */
+.footer-text {
+  max-width: 500px;
+  margin: auto;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+/* Estilo para texto branco */
+.text-white {
+  color: white;
+}
